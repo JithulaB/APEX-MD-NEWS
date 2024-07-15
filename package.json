@@ -1,0 +1,24 @@
+{
+  "name": "APEX-MD-NEWS",
+  "version": "1.0.0",
+  "description": "Multi-device WhatsApp news bot by Jithula Bhasitha",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "stop": "node stop"
+  },
+  "author": "Jithula Bhasitha",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "@whiskeysockets/baileys": "latest",
+    "axios": "latest",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "pg": "^8.10.0",
+    "pg-hstore": "^2.3.4",
+    "pino": "^8.1.0",
+    "sequelize": "^6.30.0"
+  }
+}
